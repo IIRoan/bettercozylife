@@ -1,3 +1,12 @@
+## ⚠️ Maintenance Notice
+
+This integration is **not actively maintained**.
+
+I only own **one** CozyLife smart plug, which means I can only test changes against that single device. CozyLife appears to use **different local APIs per product (and sometimes per model)**, so I can’t reliably add or validate support for other CozyLife devices without having them physically available.
+
+As a result, **newer plug revisions might partially work**, but you may still run into issues later, such as **errors on reconnect**, broken power monitoring, or unstable behavior after restarts/updates.
+
+
 # BetterCozyLife
 A Home Assistant integration for CozyLife Smart Plugs. This integration provides local control and power monitoring capabilities.
 
@@ -6,7 +15,7 @@ A Home Assistant integration for CozyLife Smart Plugs. This integration provides
 ![CozyLife Logo](./images/icon.png)
 
 ## Supported Devices
-⚠️ **IMPORTANT: This integration is ONLY tested with the CozyLife Smart Plugs not their other products!**
+⚠️ **IMPORTANT: This integration is ONLY compatible with the one CozyLife Smart Plug i have and not their other products!**
 Also after updating bettercozylife make sure to replug your device 
 
 [Buy it here on AliExpress](https://nl.aliexpress.com/item/1005005991851918.html)
